@@ -536,6 +536,12 @@ APPS["flipspire"] = {
 
 APPS["snake-arena"] = {
  "strings": {
+  "DRIFT_HUD": "DRIFT  orbs {score}  length {length}  rivals {rivals}{boost}",
+  "DRIFT_BOOST_ON": "  BOOST",
+  "DRIFT_OVER": "WRECKED. R restarts",
+  "DRIFT_RULES": "The border bites. Your own trail is safe. Cut rivals off and eat what spills.",
+  "DRIFT_CONTROLS": "Left/Right or A/D steer | hold Space to boost | P pause | R restart | Esc/q exit",
+  "DRIFT_PAUSED": "Paused",
   "HUD": "SNAKE ARENA  food {score} length {length} rivals {rivals}",
   "RESIZE": "Resize or R to refit (minimum 66x23).",
   "GAME_OVER": "GAME OVER. R restarts",
@@ -543,6 +549,12 @@ APPS["snake-arena"] = {
   "CONTROLS": "Arrows/WASD turn | Space pause | R restart | Esc/q exit",
  },
  "es": {
+  "DRIFT_HUD": "DRIFT  orbes {score}  largo {length}  rivales {rivals}{boost}",
+  "DRIFT_BOOST_ON": "  TURBO",
+  "DRIFT_OVER": "ESTRELLADO. R reinicia",
+  "DRIFT_RULES": "El borde muerde. Tu propia estela es segura. Cierra a los rivales y come lo que sueltan.",
+  "DRIFT_CONTROLS": "Izq/Der o A/D girar | manten Espacio para turbo | P pausa | R reinicia | Esc/q salir",
+  "DRIFT_PAUSED": "En pausa",
   "HUD": "SNAKE ARENA  comida {score} longitud {length} rivales {rivals}",
   "RESIZE": "Cambia el tamano o pulsa R (minimo 66x23).",
   "GAME_OVER": "FIN DEL JUEGO. R reinicia",
@@ -550,6 +562,12 @@ APPS["snake-arena"] = {
   "CONTROLS": "Flechas/WASD giran | Espacio pausa | R reinicia | Esc/q sale",
  },
  "fr": {
+  "DRIFT_HUD": "DRIFT  orbes {score}  longueur {length}  rivaux {rivals}{boost}",
+  "DRIFT_BOOST_ON": "  TURBO",
+  "DRIFT_OVER": "CRASH. R recommence",
+  "DRIFT_RULES": "Le bord mord. Ta propre trace est sure. Piege les rivaux et mange ce qui tombe.",
+  "DRIFT_CONTROLS": "Gauche/Droite ou A/D diriger | Espace maintenu : turbo | P pause | R recommence | Esc/q quitter",
+  "DRIFT_PAUSED": "En pause",
   "HUD": "SNAKE ARENA  nourriture {score} longueur {length} rivaux {rivals}",
   "RESIZE": "Redimensionnez ou tapez R (minimum 66x23).",
   "GAME_OVER": "PARTIE TERMINEE. R recommence",
@@ -557,6 +575,12 @@ APPS["snake-arena"] = {
   "CONTROLS": "Fleches/WASD pour tourner | Espace pause | R recommence | Echap/q quitte",
  },
  "de": {
+  "DRIFT_HUD": "DRIFT  Kugeln {score}  Laenge {length}  Rivalen {rivals}{boost}",
+  "DRIFT_BOOST_ON": "  TURBO",
+  "DRIFT_OVER": "CRASH. R startet neu",
+  "DRIFT_RULES": "Der Rand beisst. Deine eigene Spur ist sicher. Schneide Rivalen ab und friss die Beute.",
+  "DRIFT_CONTROLS": "Links/Rechts oder A/D lenken | Leertaste halten: Turbo | P Pause | R Neustart | Esc/q Ende",
+  "DRIFT_PAUSED": "Pausiert",
   "HUD": "SNAKE ARENA  Futter {score} Laenge {length} Rivalen {rivals}",
   "RESIZE": "Vergroessern oder R fuer Neuanpassung (mindestens 66x23).",
   "GAME_OVER": "SPIEL VORBEI. R startet neu",
@@ -590,4 +614,18 @@ APPS["cranestack"] = {
   "PERFECT": "PERFEKT!",
   "HUD": "CRANESTACK  PUNKTE {score}  REKORD {best}  L{level}  leertaste abwerfen  [] fov  f fps  p pause  q ende",
  },
+}
+
+APPS["stocks"] = {
+ "strings": {'TITLE': 'STOCKS (beta)', 'HEAD': '{symbol:<8} {price:>10} {change:>7}  {trend:<12} {estimate:>10}', 'ADD': 'A add symbol | D remove | Enter details | R refresh | Esc/q quit', 'PROMPT_ADD': 'Symbol to watch (e.g. AAPL): ', 'PROMPT_DEL': 'Symbol to remove: ', 'LOADING': 'Loading {symbol}...', 'FAILED': '{symbol}: no data (offline and nothing cached, or unknown symbol)', 'DETAIL_EST': 'Estimate for tomorrow: {estimate} {currency} (range {low} - {high})', 'DETAIL_TREND': 'Trend vs now: {trend:+.2f}%   MA7 {ma_s}   MA30 {ma_l}', 'DISCLAIMER': 'Estimate from past prices only. Not financial advice.', 'DETAIL_KEYS': 'Esc/q back', 'EMPTY': 'No symbols yet. Press A to add one.', 'CLOSES': 'Last {n} closes, oldest to newest:'},
+ "es": {'TITLE': 'STOCKS (beta)', 'HEAD': '{symbol:<8} {price:>10} {change:>7}  {trend:<12} {estimate:>10}', 'ADD': 'A agregar | D quitar | Enter detalles | R actualizar | Esc/q salir', 'PROMPT_ADD': 'Simbolo a seguir (p. ej. AAPL): ', 'PROMPT_DEL': 'Simbolo a quitar: ', 'LOADING': 'Cargando {symbol}...', 'FAILED': '{symbol}: sin datos (sin conexion y sin cache, o simbolo desconocido)', 'DETAIL_EST': 'Estimacion para manana: {estimate} {currency} (rango {low} - {high})', 'DETAIL_TREND': 'Tendencia: {trend:+.2f}%   MA7 {ma_s}   MA30 {ma_l}', 'DISCLAIMER': 'Estimacion basada solo en precios pasados. No es consejo financiero.', 'DETAIL_KEYS': 'Esc/q volver', 'EMPTY': 'Sin simbolos. Pulsa A para agregar uno.', 'CLOSES': 'Ultimos {n} cierres, de mas viejo a mas nuevo:'},
+ "fr": {'TITLE': 'STOCKS (beta)', 'HEAD': '{symbol:<8} {price:>10} {change:>7}  {trend:<12} {estimate:>10}', 'ADD': 'A ajouter | D retirer | Entree details | R actualiser | Esc/q quitter', 'PROMPT_ADD': 'Symbole a suivre (ex. AAPL) : ', 'PROMPT_DEL': 'Symbole a retirer : ', 'LOADING': 'Chargement de {symbol}...', 'FAILED': '{symbol} : pas de donnees (hors ligne sans cache, ou symbole inconnu)', 'DETAIL_EST': 'Estimation pour demain : {estimate} {currency} (plage {low} - {high})', 'DETAIL_TREND': 'Tendance : {trend:+.2f}%   MA7 {ma_s}   MA30 {ma_l}', 'DISCLAIMER': 'Estimation basee uniquement sur les prix passes. Pas un conseil financier.', 'DETAIL_KEYS': 'Esc/q retour', 'EMPTY': 'Aucun symbole. Appuie sur A pour en ajouter un.', 'CLOSES': '{n} dernieres clotures, de la plus ancienne a la plus recente :'},
+ "de": {'TITLE': 'STOCKS (beta)', 'HEAD': '{symbol:<8} {price:>10} {change:>7}  {trend:<12} {estimate:>10}', 'ADD': 'A hinzufuegen | D entfernen | Enter Details | R neu laden | Esc/q Ende', 'PROMPT_ADD': 'Symbol zum Merken (z. B. AAPL): ', 'PROMPT_DEL': 'Symbol zum Entfernen: ', 'LOADING': 'Lade {symbol}...', 'FAILED': '{symbol}: keine Daten (offline ohne Cache oder unbekanntes Symbol)', 'DETAIL_EST': 'Schaetzung fuer morgen: {estimate} {currency} (Bereich {low} - {high})', 'DETAIL_TREND': 'Trend: {trend:+.2f}%   MA7 {ma_s}   MA30 {ma_l}', 'DISCLAIMER': 'Schaetzung nur aus vergangenen Kursen. Keine Anlageberatung.', 'DETAIL_KEYS': 'Esc/q zurueck', 'EMPTY': 'Noch keine Symbole. Druecke A zum Hinzufuegen.', 'CLOSES': 'Letzte {n} Schlusskurse, alt nach neu:'},
+}
+
+APPS["clocks"] = {
+ "strings": {'TABS': '1 World clock   2 Timer   3 Stopwatch        Esc/q quit', 'WORLD_TITLE': 'WORLD CLOCK', 'TIMER_TITLE': 'TIMER', 'TIMER_IDLE': 'T set minutes (e.g. 5 or 0.5) | Space start/pause | R reset', 'TIMER_PROMPT': 'Minutes: ', 'TIMER_DONE': 'TIME IS UP!', 'TIMER_SET': 'Set: {dur}   Left: {left}', 'SW_TITLE': 'STOPWATCH', 'SW_KEYS': 'Space start/stop | L lap | R reset', 'SW_LAPS': 'Laps (split / total):', 'STATE_RUNNING': 'running', 'STATE_PAUSED': 'paused', 'STATE_DONE': 'done', 'STATE_IDLE': 'set'},
+ "es": {'TABS': '1 Reloj mundial   2 Temporizador   3 Cronometro        Esc/q salir', 'WORLD_TITLE': 'RELOJ MUNDIAL', 'TIMER_TITLE': 'TEMPORIZADOR', 'TIMER_IDLE': 'T minutos (p. ej. 5 o 0.5) | Espacio iniciar/pausa | R reiniciar', 'TIMER_PROMPT': 'Minutos: ', 'TIMER_DONE': 'SE ACABO EL TIEMPO!', 'TIMER_SET': 'Fijado: {dur}   Queda: {left}', 'SW_TITLE': 'CRONOMETRO', 'SW_KEYS': 'Espacio iniciar/parar | L vuelta | R reiniciar', 'SW_LAPS': 'Vueltas (parcial / total):', 'STATE_RUNNING': 'en marcha', 'STATE_PAUSED': 'en pausa', 'STATE_DONE': 'fin', 'STATE_IDLE': 'listo'},
+ "fr": {'TABS': '1 Horloge mondiale   2 Minuteur   3 Chrono        Esc/q quitter', 'WORLD_TITLE': 'HORLOGE MONDIALE', 'TIMER_TITLE': 'MINUTEUR', 'TIMER_IDLE': 'T minutes (ex. 5 ou 0.5) | Espace depart/pause | R remise a zero', 'TIMER_PROMPT': 'Minutes : ', 'TIMER_DONE': "C'EST L'HEURE !", 'TIMER_SET': 'Regle : {dur}   Reste : {left}', 'SW_TITLE': 'CHRONO', 'SW_KEYS': 'Espace marche/arret | L tour | R remise a zero', 'SW_LAPS': 'Tours (partiel / total) :', 'STATE_RUNNING': 'en cours', 'STATE_PAUSED': 'en pause', 'STATE_DONE': 'fini', 'STATE_IDLE': 'pret'},
+ "de": {'TABS': '1 Weltuhr   2 Timer   3 Stoppuhr        Esc/q Ende', 'WORLD_TITLE': 'WELTUHR', 'TIMER_TITLE': 'TIMER', 'TIMER_IDLE': 'T Minuten (z. B. 5 oder 0.5) | Leertaste Start/Pause | R Reset', 'TIMER_PROMPT': 'Minuten: ', 'TIMER_DONE': 'ZEIT IST UM!', 'TIMER_SET': 'Gesetzt: {dur}   Rest: {left}', 'SW_TITLE': 'STOPPUHR', 'SW_KEYS': 'Leertaste Start/Stopp | L Runde | R Reset', 'SW_LAPS': 'Runden (Zwischen / Gesamt):', 'STATE_RUNNING': 'laeuft', 'STATE_PAUSED': 'pausiert', 'STATE_DONE': 'fertig', 'STATE_IDLE': 'bereit'},
 }
